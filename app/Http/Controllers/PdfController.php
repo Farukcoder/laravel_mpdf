@@ -32,7 +32,7 @@ class PdfController extends Controller
     public function student_id()
     {
 
-        $config = ['format' => 'A4-p', 'title' => 'student_id', 'file_name' => 'student_id','style' => 'css/admission_form.css'];
+        $config = ['format' => 'A4-l', 'title' => 'student_id', 'file_name' => 'student_id','style' => 'css/admission_form.css'];
 
         // return view('pdf.student_id');
         $content = view('pdf.student_id');
