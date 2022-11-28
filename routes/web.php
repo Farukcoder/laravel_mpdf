@@ -25,3 +25,6 @@ Route::get('/testimonial', [PdfController::class, 'testimonial']);
 
 // accounts
 Route::get('/account_ledger', [PdfController::class, 'account_ledger']);
+Route::get('/balance_sheet', [PdfController::class, 'balance_sheet']);
+Route::get('/trial_balance', [PdfController::class, 'trial_balance']);
+Route::get('/student_migration', [PdfController::class, 'student_migration']);

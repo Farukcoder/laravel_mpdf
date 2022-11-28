@@ -51,9 +51,34 @@ class PdfController extends Controller
 
         $config = ['format' => 'A4-p', 'title' => 'account_ledger', 'file_name' => 'account_ledger','style' => 'css/admission_form.css'];
 
-
-        // return view('pdf.testimonial');
         $content = view('pdf.account_ledger');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function balance_sheet()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'balance_sheet', 'file_name' => 'balance_sheet','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.balance_sheet');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function trial_balance()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'trial_balance', 'file_name' => 'trial_balance','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.trial_balance');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function student_migration()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'student_migration', 'file_name' => 'student_migration','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.student_migration');
         $this->pdfGenerate($content,$config);
 
     }
