@@ -91,4 +91,13 @@ class PdfController extends Controller
         $this->pdfGenerate($content,$config);
 
     }
+    public function student_attendence_detail()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'student_attendence_detail', 'file_name' => 'student_attendence_detail','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.student_attendence_detail');
+        $this->pdfGenerate($content,$config);
+
+    }
 }

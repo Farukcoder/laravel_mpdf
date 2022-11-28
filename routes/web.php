@@ -29,3 +29,4 @@ Route::get('/balance_sheet', [PdfController::class, 'balance_sheet']);
 Route::get('/trial_balance', [PdfController::class, 'trial_balance']);
 Route::get('/student_migration', [PdfController::class, 'student_migration']);
 Route::get('/student_daily_attendence_summary', [PdfController::class, 'student_daily_attendence_summary']);
+Route::get('/student_attendence_detail', [PdfController::class, 'student_attendence_detail']);
