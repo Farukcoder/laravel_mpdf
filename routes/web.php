@@ -22,3 +22,6 @@ Route::get('/admission_form', [PdfController::class, 'admission_form']);
 Route::get('/student_id_card', [PdfController::class, 'student_id_card']);
 Route::get('/student_id', [PdfController::class, 'student_id']);
 Route::get('/testimonial', [PdfController::class, 'testimonial']);
+
+// accounts
+Route::get('/account_ledger', [PdfController::class, 'account_ledger']);

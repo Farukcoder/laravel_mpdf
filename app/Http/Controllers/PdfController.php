@@ -24,7 +24,6 @@ class PdfController extends Controller
 
         $config = ['format' => 'A4-l', 'title' => 'student_id_card', 'file_name' => 'student_id_card','style' => 'css/admission_form.css'];
 
-    //    return view('pdf.student_id_card');
         $content = view('pdf.student_id_card');
         $this->pdfGenerate($content,$config);
 
@@ -34,7 +33,6 @@ class PdfController extends Controller
 
         $config = ['format' => 'A4-l', 'title' => 'student_id', 'file_name' => 'student_id','style' => 'css/admission_form.css'];
 
-        // return view('pdf.student_id');
         $content = view('pdf.student_id');
         $this->pdfGenerate($content,$config);
 
@@ -44,9 +42,18 @@ class PdfController extends Controller
 
         $config = ['format' => 'A4-l', 'title' => 'testimonial', 'file_name' => 'testimonial','style' => 'css/admission_form.css'];
 
+        $content = view('pdf.testimonial');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function account_ledger()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'account_ledger', 'file_name' => 'account_ledger','style' => 'css/admission_form.css'];
+
 
         // return view('pdf.testimonial');
-        $content = view('pdf.testimonial');
+        $content = view('pdf.account_ledger');
         $this->pdfGenerate($content,$config);
 
     }
