@@ -39,4 +39,15 @@ class PdfController extends Controller
         $this->pdfGenerate($content,$config);
 
     }
+    public function testimonial()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'testimonial', 'file_name' => 'testimonial','style' => 'css/admission_form.css'];
+
+
+        // return view('pdf.testimonial');
+        $content = view('pdf.testimonial');
+        $this->pdfGenerate($content,$config);
+
+    }
 }
