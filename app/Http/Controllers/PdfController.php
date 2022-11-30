@@ -118,4 +118,13 @@ class PdfController extends Controller
         $this->pdfGenerate($content,$config);
 
     }
+    public function sms_details()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'sms_details', 'file_name' => 'sms_details','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.sms_details');
+        $this->pdfGenerate($content,$config);
+
+    }
 }
