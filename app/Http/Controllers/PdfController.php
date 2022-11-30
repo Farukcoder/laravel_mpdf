@@ -145,4 +145,13 @@ class PdfController extends Controller
         $this->pdfGenerate($content,$config);
 
     }
+    public function print_invoice_file()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'print_invoice_file', 'file_name' => 'print_invoice_file','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.print_invoice_file');
+        $this->pdfGenerate($content,$config);
+
+    }
 }
