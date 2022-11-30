@@ -130,9 +130,18 @@ class PdfController extends Controller
     public function quickCollectionDetails()
     {
 
-        $config = ['format' => 'A4-l', 'title' => 'quickCollectionDetails', 'file_name' => 'quickCollectionDetails','style' => 'css/admission_form.css'];
+        $config = ['format' => 'A4-p', 'title' => 'quickCollectionDetails', 'file_name' => 'quickCollectionDetails','style' => 'css/admission_form.css'];
 
         $content = view('pdf.quickCollectionDetails');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function print_routine()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'print_routine', 'file_name' => 'print_routine','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.print_routine');
         $this->pdfGenerate($content,$config);
 
     }

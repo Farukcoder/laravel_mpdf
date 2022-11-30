@@ -34,3 +34,4 @@ Route::get('/exam_admit_card', [PdfController::class, 'exam_admit_card']);
 Route::get('/student_ledger', [PdfController::class, 'student_ledger']);
 Route::get('/sms_details', [PdfController::class, 'sms_details']);
 Route::get('/quickCollectionDetails', [PdfController::class, 'quickCollectionDetails']);
+Route::get('/print_routine', [PdfController::class, 'print_routine']);

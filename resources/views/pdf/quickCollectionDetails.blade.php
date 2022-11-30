@@ -26,11 +26,11 @@ error_reporting(0);
 
       <tr style="font-size: 17px;font-weight: 600; background-color: rgb(211, 210, 210); text-align: center;font-size: 17px;font-weight: 600;">
           <td style="text-align: center;font-size: 19px;" width="5%">Sl</td>
-          <td style="text-align: center;font-size: 19px;" width="15%">Fees Type</td>
-          <td style="text-align: center;font-size: 19px;" width="20%">Due</td>
-          <td style="text-align: center;font-size: 19px;" width="20%">Waived</td>
-          <td style="text-align: center;font-size: 19px;" width="20%">Paid</td>
-          <td style="text-align: center;font-size: 19px;" width="20%">Payable</td>
+          <td style="text-align: center;font-size: 19px;" width="25%">Fees Type</td>
+          <td style="text-align: center;font-size: 19px;" width="15%">Due</td>
+          <td style="text-align: center;font-size: 19px;" width="15%">Waived</td>
+          <td style="text-align: center;font-size: 19px;" width="15%">Paid</td>
+          <td style="text-align: center;font-size: 19px;" width="15%">Payable</td>
       </tr>
       <tr>
         <td style="text-align: center;font-size: 17px;">1</td>
