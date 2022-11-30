@@ -13,7 +13,7 @@ use App\Http\Controllers\PdfController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+require_once 'webV2.php';
 Route::get('/', function () {
     return view('welcome');
 });
