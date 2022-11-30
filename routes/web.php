@@ -31,3 +31,4 @@ Route::get('/student_migration', [PdfController::class, 'student_migration']);
 Route::get('/student_daily_attendence_summary', [PdfController::class, 'student_daily_attendence_summary']);
 Route::get('/student_attendence_detail', [PdfController::class, 'student_attendence_detail']);
 Route::get('/exam_admit_card', [PdfController::class, 'exam_admit_card']);
+Route::get('/student_ledger', [PdfController::class, 'student_ledger']);

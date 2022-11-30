@@ -109,4 +109,13 @@ class PdfController extends Controller
         $this->pdfGenerate($content,$config);
 
     }
+    public function student_ledger()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'student_ledger', 'file_name' => 'student_ledger','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.student_ledger');
+        $this->pdfGenerate($content,$config);
+
+    }
 }
