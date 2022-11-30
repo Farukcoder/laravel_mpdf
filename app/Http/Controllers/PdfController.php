@@ -127,4 +127,13 @@ class PdfController extends Controller
         $this->pdfGenerate($content,$config);
 
     }
+    public function quickCollectionDetails()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'quickCollectionDetails', 'file_name' => 'quickCollectionDetails','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.quickCollectionDetails');
+        $this->pdfGenerate($content,$config);
+
+    }
 }
