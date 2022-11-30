@@ -109,4 +109,67 @@ class PdfController extends Controller
         $this->pdfGenerate($content,$config);
 
     }
+    public function student_ledger()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'student_ledger', 'file_name' => 'student_ledger','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.student_ledger');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function sms_details()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'sms_details', 'file_name' => 'sms_details','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.sms_details');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function quickCollectionDetails()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'quickCollectionDetails', 'file_name' => 'quickCollectionDetails','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.quickCollectionDetails');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function print_routine()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'print_routine', 'file_name' => 'print_routine','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.print_routine');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function print_invoice_file()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'print_invoice_file', 'file_name' => 'print_invoice_file','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.print_invoice_file');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function employe_attendence_details()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'employe_attendence_details', 'file_name' => 'employe_attendence_details','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.employe_attendence_details');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function employee_daily_attendence_summary()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'employee_daily_attendence_summary', 'file_name' => 'employee_daily_attendence_summary','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.employee_daily_attendence_summary');
+        $this->pdfGenerate($content,$config);
+
+    }
 }
