@@ -36,3 +36,5 @@ Route::get('/sms_details', [PdfController::class, 'sms_details']);
 Route::get('/quickCollectionDetails', [PdfController::class, 'quickCollectionDetails']);
 Route::get('/print_routine', [PdfController::class, 'print_routine']);
 Route::get('/print_invoice_file', [PdfController::class, 'print_invoice_file']);
+Route::get('/employe_attendence_details', [PdfController::class, 'employe_attendence_details']);
+Route::get('/employee_daily_attendence_summary', [PdfController::class, 'employee_daily_attendence_summary']);

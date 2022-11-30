@@ -154,4 +154,22 @@ class PdfController extends Controller
         $this->pdfGenerate($content,$config);
 
     }
+    public function employe_attendence_details()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'employe_attendence_details', 'file_name' => 'employe_attendence_details','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.employe_attendence_details');
+        $this->pdfGenerate($content,$config);
+
+    }
+    public function employee_daily_attendence_summary()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'employee_daily_attendence_summary', 'file_name' => 'employee_daily_attendence_summary','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.employee_daily_attendence_summary');
+        $this->pdfGenerate($content,$config);
+
+    }
 }
