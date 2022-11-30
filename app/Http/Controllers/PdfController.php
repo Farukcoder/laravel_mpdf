@@ -100,4 +100,13 @@ class PdfController extends Controller
         $this->pdfGenerate($content,$config);
 
     }
+    public function exam_admit_card()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'exam_admit_card', 'file_name' => 'exam_admit_card','style' => 'css/admission_form.css'];
+
+        $content = view('pdf.exam_admit_card');
+        $this->pdfGenerate($content,$config);
+
+    }
 }
