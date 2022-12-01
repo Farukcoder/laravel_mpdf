@@ -54,4 +54,24 @@ class PdfControllerV2 extends Controller
         $this->pdfGenerate($content, $config);
 
     }
+
+    public function merit_list()
+    {
+        $config = ['format' => 'A4-P', 'title' => 'merit_list', 'file_name' => 'admission_form', 'style' => 'css/admission_form.css', 'is_watermark' => true, 'watermark_path' => 'images/Logo_Icon/preload2.png'];
+
+        $content = view('pdf.merit_list');
+        $this->pdfGenerate($content, $config);
+
+    }
+
+    public function receive_voucher()
+    {
+        $config = ['format' => 'A4-P', 'title' => 'receive_voucher', 'file_name' => 'admission_form', 'style' => 'css/admission_form.css', 'is_watermark' => true, 'watermark_path' => 'images/Logo_Icon/preload2.png'];
+
+        $content = view('pdf.receive_voucher');
+        $this->pdfGenerate($content, $config);
+
+    }
 }
+
+
