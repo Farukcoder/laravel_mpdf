@@ -180,4 +180,12 @@ class PdfController extends Controller
         $content = view('pdf.employee_id');
         $this->pdfGenerate($content, $config);
     }
+    public function student_wise_transcipt()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'student_wise_transcipt', 'file_name' => 'student_wise_transcipt', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.student_wise_transcipt');
+        $this->pdfGenerate($content, $config);
+    }
 }
