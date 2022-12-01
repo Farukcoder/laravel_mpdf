@@ -42,3 +42,4 @@ Route::get('/employee_id', [PdfController::class, 'employee_id']);
 Route::get('/student_wise_transcipt', [PdfController::class, 'student_wise_transcipt']);
 Route::get('/syllabus', [PdfController::class, 'syllabus']);
 Route::get('/account_payable_receivable', [PdfController::class, 'account_payable_receivable']);
+Route::get('/fees_collection_report', [PdfController::class, 'fees_collection_report']);

@@ -204,4 +204,12 @@ class PdfController extends Controller
         $content = view('pdf.account_payable_receivable');
         $this->pdfGenerate($content, $config);
     }
+    public function fees_collection_report()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'fees_collection_report', 'file_name' => 'fees_collection_report', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.fees_collection_report');
+        $this->pdfGenerate($content, $config);
+    }
 }
