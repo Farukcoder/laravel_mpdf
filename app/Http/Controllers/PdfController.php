@@ -188,4 +188,12 @@ class PdfController extends Controller
         $content = view('pdf.student_wise_transcipt');
         $this->pdfGenerate($content, $config);
     }
+    public function syllabus()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'syllabus', 'file_name' => 'syllabus', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.syllabus');
+        $this->pdfGenerate($content, $config);
+    }
 }
