@@ -40,6 +40,7 @@ Route::get('/employe_attendence_details', [PdfController::class, 'employe_attend
 Route::get('/employee_daily_attendence_summary', [PdfController::class, 'employee_daily_attendence_summary']);
 Route::get('/employee_id', [PdfController::class, 'employee_id']);
 
+
 Route::get('/cash_book', [PdfControllerV2::class, 'cashbook']);
 Route::get('/bank_book', [PdfControllerV2::class, 'bank_book']);
 Route::get('/live_class_report', [PdfControllerV2::class, 'live_class_report']);
@@ -47,3 +48,12 @@ Route::get('/generate_salary_sheet', [PdfControllerV2::class, 'generate_salary_s
 Route::get('/employe_view', [PdfControllerV2::class, 'employe_view']);
 Route::get('/merit_list', [PdfControllerV2::class, 'merit_list']);
 Route::get('/receive_voucher', [PdfControllerV2::class, 'receive_voucher']);
+
+Route::get('/student_wise_transcipt', [PdfController::class, 'student_wise_transcipt']);
+Route::get('/syllabus', [PdfController::class, 'syllabus']);
+Route::get('/account_payable_receivable', [PdfController::class, 'account_payable_receivable']);
+Route::get('/fees_collection_report', [PdfController::class, 'fees_collection_report']);
+Route::get('/pay_slip', [PdfController::class, 'pay_slip']);
+Route::get('/print_exam_routine', [PdfController::class, 'print_exam_routine']);
+Route::get('/salary_report', [PdfController::class, 'salary_report']);
+

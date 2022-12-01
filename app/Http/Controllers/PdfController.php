@@ -180,4 +180,60 @@ class PdfController extends Controller
         $content = view('pdf.employee_id');
         $this->pdfGenerate($content, $config);
     }
+    public function student_wise_transcipt()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'student_wise_transcipt', 'file_name' => 'student_wise_transcipt', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.student_wise_transcipt');
+        $this->pdfGenerate($content, $config);
+    }
+    public function syllabus()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'syllabus', 'file_name' => 'syllabus', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.syllabus');
+        $this->pdfGenerate($content, $config);
+    }
+    public function account_payable_receivable()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'account_payable_receivable', 'file_name' => 'account_payable_receivable', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.account_payable_receivable');
+        $this->pdfGenerate($content, $config);
+    }
+    public function fees_collection_report()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'fees_collection_report', 'file_name' => 'fees_collection_report', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.fees_collection_report');
+        $this->pdfGenerate($content, $config);
+    }
+    public function pay_slip()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'pay_slip', 'file_name' => 'pay_slip', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.pay_slip');
+        $this->pdfGenerate($content, $config);
+    }
+    public function print_exam_routine()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'print_exam_routine', 'file_name' => 'print_exam_routine', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.print_exam_routine');
+        $this->pdfGenerate($content, $config);
+    }
+    public function salary_report()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'salary_report', 'file_name' => 'salary_report', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.salary_report');
+        $this->pdfGenerate($content, $config);
+    }
 }

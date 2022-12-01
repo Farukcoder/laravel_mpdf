@@ -2,7 +2,6 @@
 ini_set('pcre.backtrack_limit', '5000000');
 error_reporting(0);
 ?>
-
 <table border="0px" width="98%" align="center" style="border-collapse:collapse; margin:2px auto; padding-top: 50px">
     <tr>
 
@@ -11,95 +10,93 @@ error_reporting(0);
                 <h4 style="font-size: 26px;font-weight: 900; margin: 20px 0 2px; color: darkblue;">Learning Campus (Main
                     Branch)</h4>
                 <a style="color: blue;text-decoration: none;" href="#">www.LearningCampus.com</a>
-                <p style="font-size: 20px;font-weight: 600; color: darkblue;  margin: 20px 0;">Uttara, Dhaka</p>
-                <p style="font-size: 20px;font-weight: 600;color: darkblue;margin: 20px 0;">Cash Book for the month of April 2021</p>
-                <p style="font-size: 20px;font-weight: 600;color: darkblue;margin: 20px 0;">Session : 2021</p>
+
+                <p style="font-size: 20px;font-weight: 600; color: darkblue;  margin: 20px 0;">Mirpur-1100, Dhaka</p>
+                <p style="font-size: 20px;font-weight: 600;color: darkblue;margin: 20px 0;">Accounts Payable /
+                    Receivable till Month : November 2022</p>
+                <p style="font-size: 20px;font-weight: 600;color: darkblue;margin: 20px 0;">Session : 2022</p>
+
             </div>
         </td>
 
     </tr>
 </table>
-<br>
-<table class="jolchap" align="center" border="1"  width='100%' cellspacing="0" cellspacing='0' style="border-collapse:collapse;margin:0 auto;table-layout:fixed;">
 
-    <thead style="background-color:rgb(220, 220, 220)">
-    <tr>
-        <th> Particulars</th>
-        <th class="text-right">As on April 2022</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <th colspan="2" style="text-align: left" >CURRENT LIABILITIES</th>
+<table class="jolchap" align="center" border="1" width='100%' cellspacing="0" cellspacing='0'
+    style="border-collapse:collapse;margin:0 auto;table-layout:fixed;">
+
+    <tr
+        style="font-size: 17px;font-weight: 600; background-color: rgb(211, 210, 210); text-align: center;font-size: 17px;font-weight: 600;">
+        <td style="text-align: left;font-size: 19px;" width="40%">Particulars</td>
+        <td style="text-align: right;font-size: 19px;" width="60%">As on April 2022</td>
     </tr>
     <tr>
-        <td colspan="2" style="text-align: right" >0.00</td>
+        <td style="text-align: left;font-size: 17px;">CURRENT LIABILITIES</td>
+        <td style="text-align: right;font-size: 17px;"></td>
+    </tr>
+    <tr style="background-color: rgba(0, 0, 0, 0.05);">
+        <td colspan='2' style="text-align: right;">0.00 &nbsp;</td>
     </tr>
     </tbody>
 </table>
 <br>
 <table class="jolchap" align="center" border="1"  width='100%' cellspacing="0" cellspacing='0' style="border-collapse:collapse;margin:0 auto;table-layout:fixed;">
 
-    <thead style="background-color:rgb(220, 220, 220)">
-    <tr>
-        <th scope="col" colspan="2">CURRENT ASSETS</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <th scope="row">Dues from Students (Nursery )</th>
-        <td class="text-right" style="text-align: right" >11,730.00</td>
+<table class="jolchap" align="center" border="1" width='100%' cellspacing="0" cellspacing='0'
+    style="border-collapse:collapse;margin:0 auto;table-layout:fixed;">
+
+    <tr
+        style="font-size: 17px;font-weight: 600; background-color: rgb(211, 210, 210); text-align: center;font-size: 17px;font-weight: 600;">
+        <td colspan="2" style="font-size: 19px;" width="60%">CURRENT ASSETS</td>
     </tr>
     <tr>
-        <th scope="row">Dues from Students (Six)</th>
-        <td class="text-right" style="text-align: right" >15,040.00</td>
+        <td style="text-align: left;font-size: 17px;">Dues from Students (Nursery )</td>
+        <td style="text-align: right;font-size: 17px;">11,730.00</td>
     </tr>
     <tr>
-        <th scope="row">Dues from Students (Six)</th>
-        <td class="text-right" style="text-align: right" >15,040.00</td>
+        <td style="text-align: left;font-size: 17px;">Dues from Students (Nursery )</td>
+        <td style="text-align: right;font-size: 17px;">11,730.00</td>
     </tr>
     <tr>
-        <th scope="row">Dues from Students (Six)</th>
-        <td class="text-right" style="text-align: right" >15,040.00</td>
+        <td style="text-align: left;font-size: 17px;">Dues from Students (Nursery )</td>
+        <td style="text-align: right;font-size: 17px;">11,730.00</td>
     </tr>
     <tr>
-        <th scope="row">Dues from Students (Six)</th>
-        <td class="text-right" style="text-align: right" >15,040.00</td>
+        <td style="text-align: left;font-size: 17px;">Dues from Students (Nursery )</td>
+        <td style="text-align: right;font-size: 17px;">11,730.00</td>
     </tr>
     <tr>
-        <th scope="row">Dues from Students (Six)</th>
-        <td class="text-right" style="text-align: right" >15,040.00</td>
+        <td style="text-align: left;font-size: 17px;">Dues from Students (Nursery )</td>
+        <td style="text-align: right;font-size: 17px;">11,730.00</td>
     </tr>
-    <tr>
-        <th scope="row">Dues from Students (Six)</th>
-        <td class="text-right" style="text-align: right" >15,040.00</td>
+    <tr style="background-color: rgba(0, 0, 0, 0.05);">
+        <td colspan='2' style="text-align: right;">1255 &nbsp;</td>
     </tr>
-    <tr>
-        <td class="text-right" style="text-align: right"  colspan="2"><u>2025</u></td>
-    </tr>
-    <tr>
-        <th scope="row" colspan="2" style="background-color:rgb(220, 220, 220)">PROFIT & LOSS</th>
-    </tr>
-    <tr>
-        <th scope="row">Total Received (Cash)</th>
-        <td class="text-right" style="text-align: right" >15,040.00</td>
-    </tr>
-    <tr>
-        <th scope="row">Total Payment (Cash)</th>
-        <td class="text-right" style="text-align: right" >15,040.00</td>
-    </tr>
-    <tr>
-        <td class="text-right" style="text-align: right"  colspan="2"><u>1255</u></td>
-    </tr>
-    <tr>
-        <th scope="row">Total Received / Deposited (Bank)</th>
-        <td class="text-right" style="text-align: right" >15,040.00</td>
-    </tr>
-    <tr>
-        <th scope="row">Total Payment / Withdraw (Bank)</th>
-        <td class="text-right" style="text-align: right" >15,040.00</td>
-    </tr>
-    </tbody>
 </table>
+<table class="jolchap" align="center" border="1" width='100%' cellspacing="0" cellspacing='0'
+    style="border-collapse:collapse;margin:0 auto;table-layout:fixed;">
 
-
+    <tr
+        style="font-size: 17px;font-weight: 600; background-color: rgb(211, 210, 210); text-align: center;font-size: 17px;font-weight: 600;">
+        <td colspan="2" style="font-size: 19px;" width="60%">PROFIT & LOSS</td>
+    </tr>
+    <tr>
+        <td style="text-align: left;font-size: 17px;">Total Received (Cash)</td>
+        <td style="text-align: right;font-size: 17px;">15,040.00</td>
+    </tr>
+    <tr>
+        <td style="text-align: left;font-size: 17px;">Total Received (Cash)</td>
+        <td style="text-align: right;font-size: 17px;">15,040.00</td>
+    </tr>
+    <tr style="background-color: rgba(0, 0, 0, 0.05);">
+        <td colspan='2' style="text-align: right;">1255 &nbsp;</td>
+    </tr>
+    <tr style="background-color: rgba(0, 0, 0, 0.05);">
+        <td  style="text-align: left;">Total Received / Deposited (Bank)&nbsp;</td>
+        <td  style="text-align: right;">15,040.00</td>
+    </tr>
+    <tr style="background-color: rgba(0, 0, 0, 0.05);">
+        <td style="text-align: left;">Total Payment / Withdraw (Bank) &nbsp;</td>
+        <td style="text-align: right;">15,040.00</td>
+    </tr>
+</table>
