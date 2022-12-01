@@ -44,3 +44,4 @@ Route::get('/syllabus', [PdfController::class, 'syllabus']);
 Route::get('/account_payable_receivable', [PdfController::class, 'account_payable_receivable']);
 Route::get('/fees_collection_report', [PdfController::class, 'fees_collection_report']);
 Route::get('/pay_slip', [PdfController::class, 'pay_slip']);
+Route::get('/print_exam_routine', [PdfController::class, 'print_exam_routine']);

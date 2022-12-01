@@ -220,4 +220,12 @@ class PdfController extends Controller
         $content = view('pdf.pay_slip');
         $this->pdfGenerate($content, $config);
     }
+    public function print_exam_routine()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'print_exam_routine', 'file_name' => 'print_exam_routine', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.print_exam_routine');
+        $this->pdfGenerate($content, $config);
+    }
 }
