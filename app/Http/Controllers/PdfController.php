@@ -196,4 +196,12 @@ class PdfController extends Controller
         $content = view('pdf.syllabus');
         $this->pdfGenerate($content, $config);
     }
+    public function account_payable_receivable()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'account_payable_receivable', 'file_name' => 'account_payable_receivable', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.account_payable_receivable');
+        $this->pdfGenerate($content, $config);
+    }
 }

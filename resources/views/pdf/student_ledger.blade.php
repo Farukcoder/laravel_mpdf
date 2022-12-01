@@ -20,31 +20,33 @@ error_reporting(0);
     </tr>
 </table>
 <br>
-   <table class="jolchap" align="center" border="1"  width='100%' cellspacing="0" cellspacing='0' style="border-collapse:collapse;margin:0 auto;table-layout:fixed;">
+<table class="jolchap" align="center" border="1" width='100%' cellspacing="0" cellspacing='0'
+    style="border-collapse:collapse;margin:0 auto;table-layout:fixed;">
 
-      <tr style="font-size: 17px;font-weight: 600; background-color: rgb(211, 210, 210); text-align: center;font-size: 17px;font-weight: 600;">
-          <td style="text-align: center;font-size: 19px;" width="5%">Sl</td>
-          <td style="text-align: center;font-size: 19px;" width="6%">ID</td>
-          <td style="text-align: center;font-size: 19px;" width="10%">Name</td>
-          <td style="text-align: center;font-size: 19px;" width="5%">Shift</td>
-          <td style="text-align: center;font-size: 19px;" width="5%">Roll</td>
-          <td style="text-align: center;font-size: 19px;" width="6%">Admission</td>
-          <td style="text-align: center;font-size: 19px;" width="5%">January</td>
-          <td style="text-align: center;font-size: 19px;" width="5%">February</td>
-          <td style="text-align: center;font-size: 19px;" width="5%">March</td>
-          <td style="text-align: center;font-size: 19px;" width="5%">April</td>
-          <td style="text-align: center;font-size: 19px;" width="5%">May</td>
-          <td style="text-align: center;font-size: 19px;" width="5%">June</td>
-          <td style="text-align: center;font-size: 19px;" width="5%">July</td>
-          <td style="text-align: center;font-size: 19px;" width="5%">August</td>
-          <td style="text-align: center;font-size: 19px;" width="6%">September</td>
-          <td style="text-align: center;font-size: 19px;" width="6%">October</td>
-          <td style="text-align: center;font-size: 19px;" width="6%">November</td>
-          <td style="text-align: center;font-size: 19px;" width="6%">December</td>
-          <td style="text-align: center;font-size: 19px;" width="5%">Total</td>
+    <tr
+        style="font-size: 17px;font-weight: 600; background-color: rgb(211, 210, 210); text-align: center;font-size: 17px;font-weight: 600;">
+        <td style="text-align: center;font-size: 19px;" width="5%">Sl</td>
+        <td style="text-align: center;font-size: 19px;" width="6%">ID</td>
+        <td style="text-align: center;font-size: 19px;" width="10%">Name</td>
+        <td style="text-align: center;font-size: 19px;" width="5%">Shift</td>
+        <td style="text-align: center;font-size: 19px;" width="5%">Roll</td>
+        <td style="text-align: center;font-size: 19px;" width="6%">Admission</td>
+        <td style="text-align: center;font-size: 19px;" width="5%">January</td>
+        <td style="text-align: center;font-size: 19px;" width="5%">February</td>
+        <td style="text-align: center;font-size: 19px;" width="5%">March</td>
+        <td style="text-align: center;font-size: 19px;" width="5%">April</td>
+        <td style="text-align: center;font-size: 19px;" width="5%">May</td>
+        <td style="text-align: center;font-size: 19px;" width="5%">June</td>
+        <td style="text-align: center;font-size: 19px;" width="5%">July</td>
+        <td style="text-align: center;font-size: 19px;" width="5%">August</td>
+        <td style="text-align: center;font-size: 19px;" width="6%">September</td>
+        <td style="text-align: center;font-size: 19px;" width="6%">October</td>
+        <td style="text-align: center;font-size: 19px;" width="6%">November</td>
+        <td style="text-align: center;font-size: 19px;" width="6%">December</td>
+        <td style="text-align: center;font-size: 19px;" width="5%">Total</td>
 
-      </tr>
-      <tr>
+    </tr>
+    <tr>
         <td style="text-align: center;font-size: 17px;">1</td>
         <td style="text-align: center;font-size: 17px;">21113001</td>
         <td style="text-align: center;font-size: 17px;">ABDUL ALIM</td>
@@ -65,8 +67,8 @@ error_reporting(0);
         <td style="text-align: center;font-size: 17px;">0.00</td>
         <td style="text-align: center;font-size: 17px;">0.00</td>
 
-      </tr>
-      <tr>
+    </tr>
+    <tr>
         <td style="text-align: center;font-size: 17px;">1</td>
         <td style="text-align: center;font-size: 17px;">21113001</td>
         <td style="text-align: center;font-size: 17px;">ABDUL ALIM</td>
@@ -87,8 +89,8 @@ error_reporting(0);
         <td style="text-align: center;font-size: 17px;">0.00</td>
         <td style="text-align: center;font-size: 17px;">0.00</td>
 
-      </tr>
-      <tr>
+    </tr>
+    <tr>
         <td style="text-align: center;font-size: 17px;">1</td>
         <td style="text-align: center;font-size: 17px;">21113001</td>
         <td style="text-align: center;font-size: 17px;">ABDUL ALIM</td>
@@ -109,8 +111,8 @@ error_reporting(0);
         <td style="text-align: center;font-size: 17px;">0.00</td>
         <td style="text-align: center;font-size: 17px;">0.00</td>
 
-      </tr>
-      <tr>
+    </tr>
+    <tr>
         <td style="text-align: center;font-size: 17px;">1</td>
         <td style="text-align: center;font-size: 17px;">21113001</td>
         <td style="text-align: center;font-size: 17px;">ABDUL ALIM</td>
@@ -131,23 +133,23 @@ error_reporting(0);
         <td style="text-align: center;font-size: 17px;">0.00</td>
         <td style="text-align: center;font-size: 17px;">0.00</td>
 
-      </tr>
-      <tr style="background-color: rgba(0, 0, 0, 0.05);">
-          <td colspan='5' style="text-align: right;">Total : &nbsp;</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
-          <td style="text-align: center;font-size: 17px;">0.00</td>
+    </tr>
+    <tr style="background-color: rgba(0, 0, 0, 0.05);">
+        <td colspan='5' style="text-align: right;">Total : &nbsp;</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
+        <td style="text-align: center;font-size: 17px;">0.00</td>
 
-      </tr>
-    </table>
+    </tr>
+</table>
