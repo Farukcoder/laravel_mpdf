@@ -45,3 +45,4 @@ Route::get('/account_payable_receivable', [PdfController::class, 'account_payabl
 Route::get('/fees_collection_report', [PdfController::class, 'fees_collection_report']);
 Route::get('/pay_slip', [PdfController::class, 'pay_slip']);
 Route::get('/print_exam_routine', [PdfController::class, 'print_exam_routine']);
+Route::get('/salary_report', [PdfController::class, 'salary_report']);
