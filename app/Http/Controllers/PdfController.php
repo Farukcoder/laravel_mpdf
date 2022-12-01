@@ -212,4 +212,12 @@ class PdfController extends Controller
         $content = view('pdf.fees_collection_report');
         $this->pdfGenerate($content, $config);
     }
+    public function pay_slip()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'pay_slip', 'file_name' => 'pay_slip', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.pay_slip');
+        $this->pdfGenerate($content, $config);
+    }
 }
