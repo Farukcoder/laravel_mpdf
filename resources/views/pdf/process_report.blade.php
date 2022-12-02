@@ -167,6 +167,23 @@ error_reporting(0);
 
             </tr>
         </table>
+        <br>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0"
+    style="border-collapse:collapse;margin-left: 50px; margin-top: 20px; ">
+
+    <tr>
+        <td style="text-align: center;">
+            <span style="border-top: 1px solid">Signature of Teacher </span>
+        </td>
+        <td style="text-align: center;">
+            <span style="border-top: 1px solid">Signature of Coordinator</span>
+        </td>
+        <td style="text-align: center;">
+            <span style="border-top: 1px solid">Signature of Principal</span>
+        </td>
+    </tr>
+
+</table>
 
     </div>
 </div>
