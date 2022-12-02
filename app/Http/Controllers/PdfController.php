@@ -244,4 +244,12 @@ class PdfController extends Controller
         $content = view('pdf.process_report');
         $this->pdfGenerate($content, $config);
     }
+    public function accademic_transcript()
+    {
+
+        $config = ['format' => 'A4-p', 'title' => 'accademic_transcript', 'file_name' => 'accademic_transcript', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.accademic_transcript');
+        $this->pdfGenerate($content, $config);
+    }
 }

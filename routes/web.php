@@ -57,4 +57,5 @@ Route::get('/fees_collection_report', [PdfController::class, 'fees_collection_re
 Route::get('/pay_slip', [PdfController::class, 'pay_slip']);
 Route::get('/print_exam_routine', [PdfController::class, 'print_exam_routine']);
 Route::get('/salary_report', [PdfController::class, 'salary_report']);
+Route::get('/accademic_transcript', [PdfController::class, 'accademic_transcript']);
 
