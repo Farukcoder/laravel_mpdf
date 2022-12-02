@@ -113,7 +113,5 @@ error_reporting(0);
         <td style="text-align: center;font-size: 17px;">12,000.00</td>
         <td style="text-align: center;font-size: 17px;">3,500.00</td>
         <td style="text-align: center;font-size: 17px;">3,500.00</td>
-
-
     </tr>
 </table>

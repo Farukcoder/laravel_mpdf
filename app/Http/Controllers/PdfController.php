@@ -236,4 +236,12 @@ class PdfController extends Controller
         $content = view('pdf.salary_report');
         $this->pdfGenerate($content, $config);
     }
+    public function process_report()
+    {
+
+        $config = ['format' => 'A4-l', 'title' => 'process_report', 'file_name' => 'process_report', 'style' => 'css/admission_form.css'];
+
+        $content = view('pdf.process_report');
+        $this->pdfGenerate($content, $config);
+    }
 }
