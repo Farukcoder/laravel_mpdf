@@ -39,6 +39,7 @@ error_reporting(0);
     <tr style="line-height: 20px">
         <td style="font-size: 16px;width: 120px;text-align: start;">Name of Student</td>
         <td colspan="">
+            <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suraiya Khan</span>
             <p>............................................................................................</p>
         </td>
         <td style="font-size: 16px;width: 120px;text-align: start;"></td>
@@ -50,6 +51,7 @@ error_reporting(0);
     <tr>
         <td style="font-size: 16px;width: 120px;text-align: start;">Father's Name</td>
         <td colspan="">
+            <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rased Khan</span>
             <p>............................................................................................</p>
         </td>
         <td style="font-size: 16px;width: 120px;text-align: start;"></td>
@@ -61,6 +63,7 @@ error_reporting(0);
     <tr>
         <td style="font-size: 16px;width: 120px;text-align: start;">Mother's Name</td>
         <td colspan="">
+             <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramisa Khan</span>
             <p>............................................................................................</p>
         </td>
         <td style="font-size: 16px;width: 120px;text-align: start;"></td>
@@ -72,6 +75,7 @@ error_reporting(0);
     <tr>
         <td style="font-size: 16px;width: 120px;text-align: start;">Date Of Birth</td>
         <td colspan="">
+             <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01 January 2001</span>
             <p>............................................................................................</p>
         </td>
         <td style="font-size: 16px;width: 120px;text-align: start;"></td>
@@ -82,6 +86,7 @@ error_reporting(0);
     <tr>
         <td style="font-size: 16px;width: 120px;text-align: start;">Institue</td>
         <td colspan="">
+             <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Campus School(Main Branch)</span>
             <p>............................................................................................</p>
         </td>
         <td style="font-size: 16px;width: 120px;text-align: start;"></td>
@@ -91,92 +96,71 @@ error_reporting(0);
     </tr>
     <br>
 </table>
+<br>
+        <table class="jolchap" align="center" border="1" width='100%' cellspacing="0" cellspacing='0'
+            style="border-collapse:collapse;margin:0 auto;table-layout:fixed;">
 
-        <div class="transMark">
-            <div class="table-responsive attendenceTable">
-                <table class="table text-center transTable">
-                    <thead>
-                      <tr>
-                        <th scope="col">SL.NO.</th>
-                        <th scope="col">Name of Subjects</th>
-                        <th scope="col">Letter Grade</th>
-                        <th scope="col">Grade Point(GP)</th>
-                        <th scope="col">GPA <br> <small>(Without Additional Subject)</small> </th>
-                        <th scope="col">Grade Point Avarage (GPA) </th>
-                      </tr>
-                    </thead>
-                    <tbody>
+            <tr style="font-size: 17px;font-weight: 600;text-align: center;font-size: 17px;font-weight: 600;">
+                <td style="text-align: center;font-size: 19px;" width="10%">SL.NO.</td>
+                <td style="text-align: center;font-size: 19px;" width="40%">Name of Subjects</td>
+                <td style="text-align: center;font-size: 19px;" width="10%">Letter Grade</td>
+                <td style="text-align: center;font-size: 19px;" width="20%">Grade Point(GP)</td>
+                <td style="text-align: center;font-size: 19px;" width="20%">GPA <br><small>(Without Additional Subject)</small></td>
+                <td style="text-align: center;font-size: 19px;" width="20%">Grade Point Avarage (GPA) </td>
 
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Bangla 1st Paper</td>
-                            <td>A+</td>
-                            <td>5</td>
-                            <td rowspan="6">4.68</td>
-                            <td rowspan="9">4.96</td>
-                        </tr>
+            </tr>
+            <tr>
+                <td style="text-align: center;font-size: 17px;">1</td>
+                <td style="text-align: center;font-size: 17px;">Bangla 1st Paper</td>
+                <td style="text-align: center;font-size: 17px;">A+</td>
+                <td style="text-align: center;font-size: 17px;">5</td>
+                <td rowspan="6" style="text-align: center;font-size: 17px;">4.68</td>
+                <td rowspan="9" style="text-align: center;font-size: 17px;">4.96</td>
 
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Bangla 2nd Paper</td>
-                        <td>A+</td>
-                        <td>5</td>
-                      </tr>
+            </tr>
+            <tr>
+                <td style="text-align: center;font-size: 17px;">3</td>
+                <td style="text-align: center;font-size: 17px;">English 2nd Paper</td>
+                <td style="text-align: center;font-size: 17px;">A+</td>
+                <td style="text-align: center;font-size: 17px;">5</td>
 
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>English 2nd Paper</td>
-                        <td>A-</td>
-                        <td>4</td>
-                      </tr>
+            </tr>
+            <tr>
+                <td style="text-align: center;font-size: 17px;">4</td>
+                <td style="text-align: center;font-size: 17px;">Matchmatics</td>
+                <td style="text-align: center;font-size: 17px;">A+</td>
+                <td style="text-align: center;font-size: 17px;">5</td>
 
-                      <tr>
-                        <th scope="row">4</th>
-                        <td>Matchmatics</td>
-                        <td>A+</td>
-                        <td>5</td>
-                      </tr>
+            </tr>
+            <tr>
+                <td style="text-align: center;font-size: 17px;">5</td>
+                <td style="text-align: center;font-size: 17px;">Science</td>
+                <td style="text-align: center;font-size: 17px;">A+</td>
+                <td style="text-align: center;font-size: 17px;">5</td>
 
-                      <tr>
-                        <th scope="row">5</th>
-                        <td>Science</td>
-                        <td>A+</td>
-                        <td>5</td>
-                      </tr>
+            </tr>
+            <tr>
+                <td style="text-align: center;font-size: 17px;">6</td>
+                <td style="text-align: center;font-size: 17px;">Religion</td>
+                <td style="text-align: center;font-size: 17px;">A+</td>
+                <td style="text-align: center;font-size: 17px;">5</td>
 
-                      <tr>
-                        <th scope="row">6</th>
-                        <td>Religion</td>
-                        <td>A+</td>
-                        <td>5</td>
-                      </tr>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align: center;font-size: 17px;">Additional Subject</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="text-align: center;font-size: 17px;">7</td>
+                <td rowspan="2" style="text-align: center;font-size: 17px;">Agriculture</td>
+                <td rowspan="2" style="text-align: center;font-size: 17px;">A+</td>
+                <td rowspan="2" style="text-align: center;font-size: 17px;">5</td>
+                <td style="text-align: center;font-size: 17px;">GPA Above 2 </td>
 
-                      <tr>
-                          <td colspan="5">Additional Subject</td>
-                      </tr>
+            </tr>
+            <tr>
+                <td style="text-align: center;font-size: 17px;">2.00</td>
 
-                      <tr>
-                        <th scope="row" rowspan="2">7</th>
-                        <td rowspan="2">Agriculture</td>
-                        <td rowspan="2">A+</td>
-                        <td rowspan="2">5</td>
-                        <td>GPA Above 2 </td>
-                     </tr>
-
-                     <tr>
-                        <td>2.00</td>
-                    </tr>
-
-                    </tbody>
-                  </table>
-            </div>
-        </div>
-
-
-
-        <div class="trancriptBottom">
-           <p>Result Published Date : Uttara, December 31,2016</p>
-           <p>Controller of Examinations</p>
-        </div>
+            </tr>
+        </table>
     </div>
 </div>

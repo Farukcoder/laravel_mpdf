@@ -183,7 +183,7 @@ class PdfController extends Controller
     public function student_wise_transcipt()
     {
 
-        $config = ['format' => 'A4-p', 'title' => 'student_wise_transcipt', 'file_name' => 'student_wise_transcipt', 'style' => 'css/admission_form.css'];
+        $config = ['format' => 'A4-p', 'title' => 'student_wise_transcipt', 'file_name' => 'student_wise_transcipt','is_watermark' => true, 'watermark_path' => 'images/Logo_Icon/preload2.png', 'style' => 'css/admission_form.css'];
 
         $content = view('pdf.student_wise_transcipt');
         $this->pdfGenerate($content, $config);
